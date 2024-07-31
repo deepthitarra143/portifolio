@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gsdaier personal website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <script src="app.js"></script>
+  <script src="particles.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- go to top btn -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img
+      src="https://img.icons8.com/material-rounded/48/000000/double-up.png" /></button>
+
+  <main>
+    <!-- navbar content -->
+    <div class="big-wrapper light">
+      <header>
+        <div class="container">
+          <div class="logo">
+            <h3>Portifolio</h3>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#tecno">Technologies</a></li>
+              <li><a href="#aboutlink">About</a></li>
+              <li><a href="https://github.com/gsdaier">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/gustavo-daier-708a64228/" class="btn">LinkedIn</a></li>
+            </ul>
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </header>
+
+      <!-- landing page content -->
+      <div class="showcase-area">
+        <div class="container">
+          <div class="left">
+            <div class="big-title">
+              <h1>welcome to my website, </h1>
+              <h1>get to know me better</h1>
+            </div>
+            <p class="text">
+              To contact me by email, click the button below
+            </p>
+            <div class="cta">
+              <a href="mailto:gustavodaier@outlook.com" class="btn">contact me</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <img
+              src="https://media2.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e47stizkfzn6q2jcyj6pr5cb7fguak5uzm1cn022vls&rid=giphy.gif&ct=g"
+              alt="Person Image" class="codegif" />
+          </div>
+        </div>
+      </div>
+
+      <!-- theme button -->
+      <div class="bottom-area">
+        <div class="container">
+          <button class="toggle-btn">
+            <i class="far fa-moon"></i>
+            <i class="far fa-sun"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+  </script>
+
+  <!-- About me container -->
+  <div class="aboutcontainer" id="aboutlink">
+    <div class="aboutback">
+      <div class="aboutdiv">
+        <a>About Me</a>
+      </div>
+      <div class="aboutimg">
+        <img src="https://avatars.githubusercontent.com/u/96262128?v=4" alt="its me image">
+      </div>
+      <div class="pdiv">
+        <p class="aboutp">
+         I'm 21 years old and I'm deepthi.
+         I feel comfortable with Javascript, HTML, CSS, C#, Git<br><br>
+
+          I have knowledge in:<br>
+          Angular, SQL, C/C++
+          Program logic, algorithm<br><br>
+
+          I'm passionate about knowing how things work<br>
+          I'm passionate about my work.<br>
+          Studying  Engineering<br><br>
+          
+          To see my projects and learn more about what I already work on, visit my Github:
+          https://github.com/gsdaier<br>
+          This website will be constantly updated.
+          For details <a href="https://github.com/deepthitarra143?tab=repositories" class="linkgit">acess my Github</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- projects content -->
+  <div class="projectscontainer" id="projects">
+    <div class="projectstitle">
+      <a>My projects</a>
+      <p>
+        A brief demo of some of my projects (Click inside images for go to repository)</p>
+    </div>
+
+    <div class="projectsdiv">
+      <div class="project1">
+        <div class="pimg">
+          <a href="https://github.com/gsdaier/Monogram-copy"><img
+              src="https://github.com/gsdaier/Monogram-copy/raw/main/gifs/copywebsite1.gif"></a>
+        </div>
+        <div class="ptext">
+          <p>monogram copy</p>
+          <a>copy of the monogram site, using the same functionality, colors and palettes
+            made to demonstrate programming skills</a>
+        </div>
+      </div>
+
+      <div class="project1">
+        <div class="pimg">
+          <a href="https://github.com/gsdaier/personal-website"><img src="https://res.cloudinary.com/dhxpk8mls/image/upload/v1721470757/services1_fzcban.jpg"></a>
+        </div>
+        <div class="ptext">
+          <p>My Personal website</p>
+          <a> this is the site you are accessing now, it was created with the intention of demonstrating my work and
+            introducing myself</a>
+        </div>
+      </div>
+
+      <div class="project1">
+        <div class="pimg">
+          <a href="https://github.com/gsdaier"><img
+              src="https://media3.giphy.com/media/yAGIvCiwPJn5C/giphy.gif?cid=ecf05e47ax1vie7df4drvfn87rjoq47p02bhz3qvzg4m2wrb&rid=giphy.gif&ct=g"></a>
+        </div>
+        <div class="ptext">
+          <p>coding</p>
+          <a> I'm still coding this project</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <script src="js folder/script.js"></script>
+  <script src="js folder/app.js"></script>
+</body>
+
+</html>
